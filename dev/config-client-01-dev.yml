@@ -1,0 +1,5 @@
+eureka:
+  client:
+    serviceUrl: ${config.eureka.registry.url:http://registry-center-1:9001/eureka/}
+
+description: it's a demo of spring cloud config server cluster!
